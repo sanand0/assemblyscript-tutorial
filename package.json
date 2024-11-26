@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "assemblyscript": "^0.27.31"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./build/release.js",
+      "types": "./build/release.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "asc calc.ts --outFile calc.wasm --bindings esm"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.27.31"
+  }
+}

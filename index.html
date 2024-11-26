@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script type="module">
+    import { add, len } from "./calc.js";
+    // const { memory, add, len } = await WebAssembly.instantiateStreaming(fetch("calc.wasm")).then((r) => r.instance.exports);
+    const { result } = add(1, 1);
+    document.body.innerText = result + " - " + len("hello");
+  </script>
+</head>
+
+<body></body>
+
+</html>

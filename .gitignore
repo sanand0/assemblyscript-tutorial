@@ -1,0 +1,4 @@
+calc.*
+!calc.ts
+
+node_modules/
