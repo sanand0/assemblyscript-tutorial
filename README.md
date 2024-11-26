@@ -8,7 +8,9 @@ For example, create a [`calc.ts`](calc.ts) file:
 
 ```ts
 // calc.ts
-export function len(a: string): i32 { return a.length; }`
+export function len(a: string): i32 {
+  return a.length;
+}
 ```
 
 ```shell
